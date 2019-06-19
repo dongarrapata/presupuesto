@@ -5,3 +5,9 @@
 *.tex
 *.gz
 *.toc
+
+# ignore private data files
+privado*
+
+# ignore resulting PDF's
+*.pdf

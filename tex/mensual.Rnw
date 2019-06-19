@@ -1,6 +1,8 @@
 <<label=mensual1,echo=false,results=tex>>=
-sueldo <- 35000
-gastos <- list(renta=6000,gimnasio=1862,nutriologa=1500)
-ahorro <- sueldo - Reduce("+", gastos)
+dir <- getwd()
+setwd(dir)
+source("R/privado_datos.R")
+sueldo
+ahorro
 @
 
