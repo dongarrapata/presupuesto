@@ -1,0 +1,7 @@
+# ignore all logs
+*.log
+
+# ignore non .Rnw (.tex, etc.)
+*.tex
+*.gz
+*.toc

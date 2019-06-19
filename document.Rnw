@@ -1,0 +1,121 @@
+\documentclass{isat}
+
+\usepackage[margin=0.7in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\title{Herramientas de administración de Directorio Activo}
+\author{ISAT}
+\date{\today}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+\section{Introducción}
+\SweaveInput{tex/intro.Rnw}
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+%----------------------------------------------------------------------------------------
+% PLANTILLAS PARA CÓDIGO E IMÁGENES
+%----------------------------------------------------------------------------------------
+
+\begin{figure}[H]
+%\centering
+%\includegraphics[scale=1]{graf_retiros_clases.png}
+\includegraphics[scale=1]{p_brown32.png}
+\caption{1000 simulaciones del proceso estándar}
+\end{figure}
+
+\begin{figure}[H]
+%\newpage
+\begin{lstlisting}
+
+\end{lstlisting}
+\caption{---}
+\end{figure}
+
+\begin{lstlisting}
+Put your code here.
+\end{lstlisting}
+
+\lstinputlisting{source_filename.py}
+
+\lstinputlisting[language=Python]{source_filename.py}
+
+\lstinputlisting[language=Python, firstline=37, lastline=45]{source_filename.py}
+
+%----------------------------------------------------------------------------------------
+% PLANTILLAS PARA DEFINICIONES ETC...
+%----------------------------------------------------------------------------------------
+
+
+\begin{mdframed}
+\begin{defi}
+(función de verosimilitud)
+$$
+lik(\theta)=f(x|\theta):=\text{función de densidad conjunta con las $x$'s fijas, pensada como función de $\theta$.}
+$$
+\end{defi}
+\end{mdframed}
+%----------------------------------------------------------------------------------------
+% PLANTILLAS PARA TABLAS
+%----------------------------------------------------------------------------------------
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{ | l || l | l | l | l | l | l | l | }
+  \hline
+  & & & & & & & \\
+  \hline
+\end{tabular}
+\end{center}
+\caption{}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+% PLANTILLAS PARA MATRICES
+%----------------------------------------------------------------------------------------
+
+\[M = \left( \begin{array}{ccc}
+a & b & c \\
+d & e & f \\
+g & h & i \\
+j & k & l\end{array} \right)\]
+
+%----------------------------------------------------------------------------------------
+% PLANTILLAS PARA BIBLIOGRAFÍA
+%----------------------------------------------------------------------------------------
+
+\begin{thebibliography}{99}
+
+\bibitem{MUMCI2013}
+  Museo Modelo de Ciencia e Industria
+
+\bibitem{Minois2004}
+  Minois N., Frajnt M., $et$ $al$.
+  \emph{Advances in measuring lifespan in the yeast
+Saccharomyces cerevisiae}.
+  2004.
+  
+  \bibitem{Wikipedia2013}
+  Wikipedia
+  \emph{http://en.wikipedia.org/wiki/Saccharomyces\_cerevisiae},
+  \emph{http://en.wikipedia.org/wiki/Yeast}.
+  
+\end{thebibliography}

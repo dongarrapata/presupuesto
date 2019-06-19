@@ -1,0 +1,5 @@
+Hola
+<<label=intro1,echo=true,results=tex>>=
+x <- 1:10
+x
+@
